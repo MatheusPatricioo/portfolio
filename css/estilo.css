@@ -205,16 +205,38 @@ section h2{
 
  }
 
+ .container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+ }
+ .child{
+    width: 20%;
+    height: 200px;
+    background-color:rgb(255, 1, 1);
+    border: 1px solid white;
+    text-align: center;
+    margin: 5px;
+    border:  1px solid black;
+    border-radius: 10px;
+ }
+
  .project_header{
     margin-left: 10%;
+    margin-right: 10%;
     flex: 40%;
      border: 1px solid black; 
+     
+     
 }
 
 .project_header p{
     /* cor paragrafo P */
     color: #8f512b;
-    text-align: left;
+    text-align: center;
 }
 
 .project_header h2{
@@ -223,6 +245,7 @@ section h2{
     color: #8f512b;
     padding: 0; 
     margin: 0;
+    
 }
 .project_headline{
 
@@ -230,5 +253,6 @@ section h2{
 .project_headline h2{
         /* Matheus P gigante  */
         color:#774322;
-        text-align: left;
+        text-align: center;
+        
 }
