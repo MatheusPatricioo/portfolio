@@ -49,7 +49,7 @@ body{
     border-top: 4px solid #180f4a;
 }
 #botao{
-    background-color: #180f4a;
+    background-color: #3e4242;
     padding: 10px 25px;
     color: white;
     border-radius: 5px;
@@ -58,7 +58,7 @@ body{
 }
 #botao:hover{
     border: none;
-    background-color: #ff2978;
+    background-color:  #180f4a;
 }
 .header{
      /* div que comtempla a foto principal e os textos ao lado ( primeiro ctt do cliente)*/
@@ -84,13 +84,13 @@ body{
 
 .headline p{
     /* cor paragrafo P */
-    color:rgb(255, 255, 255);
+    color:#646969;
     text-align: left;
 }
 
 .contact-btn{
      display: inline-block;
-    background-color: #ff2978;
+    background-color: #3e4242;
     padding: 20px;
     color:white;
     text-transform: uppercase;
@@ -103,7 +103,8 @@ body{
 }
 
 .headline h2{
-    color:#180f4a;
+    /* Matheus P gigante  */
+    color:#646969;
     text-align: left;
 }
 .img-headline{
