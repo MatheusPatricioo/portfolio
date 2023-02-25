@@ -45,7 +45,7 @@ body{
     padding: 20px 16px;  
 }
 .menu a:hover{
-    color: #ff2978;
+    color: #8f512b;
     border-top: 4px solid #180f4a;
 }
 #botao{
@@ -79,14 +79,14 @@ body{
 .headline h2{
     font-weight: 900;
     font-size: 20px;
-    color: #180f4a;
+    color: #8f512b;
     padding: 0; 
     margin: 0;
 }
 
 .headline p{
     /* cor paragrafo P */
-    color:#646969;
+    color: #8f512b;
     text-align: left;
 }
 
@@ -107,7 +107,7 @@ body{
 
 .headline h2{
     /* Matheus P gigante  */
-    color:#646969;
+    color:#774322;
     text-align: left;
 }
 .img-headline{
@@ -119,10 +119,10 @@ body{
 
 section{
     display:inline-block;
-    margin-top: 80px;
+    margin-top: 0;
     /* border: 1px solid black; */
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right: 0;
     padding: 5%;
     text-align: center;
      /* width: 90%;  */
@@ -136,7 +136,7 @@ section h2{
     margin: 0;
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    color: #180f4a;
+    color: #ffffff;
 }
  .servicos{
     display: inline-block;
@@ -150,7 +150,7 @@ section h2{
     width: 30%;
     padding: 5%;
     margin: 1%;
-    border:  1px solid #ff2978;
+    border:  1px solid black;
     border-radius: 10px;
     cursor: pointer;
  }
@@ -160,14 +160,14 @@ section h2{
  }
  
  .card p{
-    color: #180f4a;
+    color: black;
     text-align: center;
     font-size: 12px;
  
  }
  .card:hover{
-    background: #ff2978;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 70px;
  }
 
@@ -182,11 +182,11 @@ section h2{
     display: block;
  }
  footer{
-    margin-top: 100px;
+    margin-top: 0;
     height: 400px;
-    background-image: linear-gradient(180deg,#180f4a, #090422, black);
+    background-image: linear-gradient(180deg,#ffffff, rgb(31, 30, 30), black);
     text-align: center;
-    border-top: 5px solid #ff2978;
+    border-top: 5px solid #000000;
  }
  .logo-rodape{
     padding: 100px;
