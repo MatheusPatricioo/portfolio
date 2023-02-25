@@ -7,10 +7,11 @@ body{
     font-family: 'Kalam', cursive;
 }
 .navbar{
+     /*barra do cabeçalho*/
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    background:white;
+    background:rgb(22,24,22);
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -23,8 +24,9 @@ body{
 }
 
 .logo h1{
+    /* logo:Matheus Patricio  */
     font-family: 'Lobster', cursive;
-    color: #180f4a;
+    color: #f8f7fd;
     font-size: 34px;
     /* margin-left: 10%; */
 }
@@ -36,7 +38,8 @@ body{
 }
 
 .menu a{
-    color: #180f4a;
+    /* menu> home etc...*/
+    color: #f8f8fa;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;  
@@ -58,11 +61,12 @@ body{
     background-color: #ff2978;
 }
 .header{
+     /* div que comtempla a foto principal e os textos ao lado ( primeiro ctt do cliente)*/
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background: white;
+    background:#282825;
     padding-top: 100px;
 }
 .headline{
@@ -79,7 +83,8 @@ body{
 }
 
 .headline p{
-    color:gray;
+    /* cor paragrafo P */
+    color:rgb(255, 255, 255);
     text-align: left;
 }
 
