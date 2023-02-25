@@ -162,7 +162,7 @@ section h2{
  .card p{
     color: black;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
  
  }
  .card:hover{
@@ -204,3 +204,31 @@ section h2{
  
 
  }
+
+ .project_header{
+    margin-left: 10%;
+    flex: 40%;
+     border: 1px solid black; 
+}
+
+.project_header p{
+    /* cor paragrafo P */
+    color: #8f512b;
+    text-align: left;
+}
+
+.project_header h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #8f512b;
+    padding: 0; 
+    margin: 0;
+}
+.project_headline{
+
+}
+.project_headline h2{
+        /* Matheus P gigante  */
+        color:#774322;
+        text-align: left;
+}
