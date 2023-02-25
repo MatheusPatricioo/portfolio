@@ -58,7 +58,9 @@ body{
 }
 #botao:hover{
     border: none;
-    background-color:  #180f4a;
+    background-color: white;
+    color: black;
+
 }
 .header{
      /* div que comtempla a foto principal e os textos ao lado ( primeiro ctt do cliente)*/
@@ -99,7 +101,8 @@ body{
 
 }
 .contact-btn:hover{
-    background:#180f4a ;
+    background:white;
+    color:black;
 }
 
 .headline h2{
@@ -123,6 +126,7 @@ section{
     padding: 5%;
     text-align: center;
      /* width: 90%;  */
+     /* color da div debaixo*/
      background-color: #3e4242;
 }
 
