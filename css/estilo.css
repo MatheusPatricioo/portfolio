@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    background:rgb(22,24,22);
+    background:rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -52,13 +52,13 @@ body{
     padding: 20px 16px;  
 }
 .menu a:hover{
-    color: #8f512b;
-    border-top: 4px solid #180f4a;
+    color:  rgb(15,249,254);
+    border-top: 4px solid  rgb(15,249,254);
 }
 #botao{
-    background-color: #3e4242;
+    background-color: rgb(15,249,254);
     padding: 10px 25px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
@@ -123,11 +123,16 @@ body{
     color:rgb(255, 255, 255);
     text-align: left;
 }
-.img-headline{
+/* IMG DA DIREITA  */
+.img-headline{ 
+
+    border-radius: 50%;
     margin-right: 10%;
     flex: 40%;
     /* border: 1px solid pink;  */
-    text-align: center;
+    text-align: center; 
+
+  
 }
 
 section{
