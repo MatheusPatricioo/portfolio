@@ -220,8 +220,18 @@ section h2{
     position: fixed;
     bottom: 5px;
     right: 5px;
- 
+ }
 
+ .linkedin{
+    position: fixed;
+    bottom: 75px;
+    right: 5px;
+ }
+
+ .github{
+    position: fixed;
+    bottom: 145px;
+    right: 5px;
  }
 
  .container{
@@ -303,6 +313,7 @@ section h2{
 }
 .slide img{
     width: 800px;
+    height: 500px;
 }
 .manual-navigation{
     position: absolute;
