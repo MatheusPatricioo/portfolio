@@ -203,7 +203,7 @@ section h2{
  footer{
     margin-top: 0;
     height: 400px;
-    background-image: linear-gradient(180deg,rgb(15,249,254), rgb(8, 0, 83), black);
+    background-image: linear-gradient(180deg,black, rgb(8, 0, 83),rgb(15,249,254));
     text-align: center;
     border-top: 5px solid #000000;
  }
