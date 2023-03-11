@@ -279,19 +279,22 @@ section h2{
     width: 800px;
     height: 400px;
     overflow: hidden;
+    display: inline-block;
 
 }
 .slides{
     width: 400%;
     height: 400px;
     display: flex;
+    
 }
 .slides input{
     display:none;
 }
 .slide{
+    background: #000000;
     width: 25%;
-    position: relative;
+    position: static;
     transition: 2s;
 }
 .slide img{
@@ -318,7 +321,7 @@ section h2{
     background-color: white;
 }
 #radio1:checked ~ .first{
-    margin-left: 0;
+    margin-left: 0%;
 }
 #radio2:checked ~ .first{
     margin-left: -25%;
@@ -334,7 +337,7 @@ section h2{
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 3s;
 }
 .navigation-auto{
     position: absolute;
@@ -359,3 +362,4 @@ section h2{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: white;
 }
+
