@@ -32,7 +32,7 @@ Meu portfólio é uma vitrine digital que apresenta uma seleção dos meus proje
 
 ## Captura de Tela
 
-Aqui está um breve resumo da primeira parte do site, fique a vontade para explorar todo o conteudo.
+Aqui está um breve resumo da front page, fique a vontade para explorar todo o conteudo.
 
 ![Captura de Tela do Portfólio](img/img1.png)
 
