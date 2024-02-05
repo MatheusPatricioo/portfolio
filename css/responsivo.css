@@ -1,35 +1,34 @@
-@media screen and (max-width:1005px){
-    .navbar{
+@media screen and (max-width:1005px) {
+    .navbar {
         position: relative;
     }
-    .menu{
+    .menu {
         display: none;
     }
-    .logo{
-        margin: 0;
+    .logo {
+        margin: 0 auto; /* Centralizar o logotipo */
         text-align: center;
     }
-    .header{
+    .header {
         padding-top: 50px;
-        
     }
-    .headline{
-        flex:100%;
+    .headline {
+        flex: 100%;
         margin: 5%;
         text-align: center;
     }
-    .headline p{
+    .headline p {
         text-align: center;
     }
-    .img-headline{
-        flex:100%;
+    .img-headline {
+        flex: 100%;
         margin: 5%;
         text-align: center;
     }
-    .card{
+    .card {
         width: 100%;
     }
-    .whats{
+    .whats {
         display: none;
     }
 }
